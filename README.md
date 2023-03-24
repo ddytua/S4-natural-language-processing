@@ -9,5 +9,5 @@
 &emsp;標準テキストエディタであるgedit上でC言語を使用し、英語の文字の使用頻度を調べる。<br><br>
 
 3. 使用するテキストデータ<br>
-&emsp;[ピーターパン](https://www.gutenberg.org/files/16/16-h/16-h.htm)
+&emsp;ピーターパン[https://www.gutenberg.org/files/16/16-h/16-h.htm](https://www.gutenberg.org/files/16/16-h/16-h.htm)
 
