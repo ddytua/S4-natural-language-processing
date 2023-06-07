@@ -9,11 +9,8 @@ int main(void) {
         float moji[999999];
         int M;
         fp = fopen(fname, "r");
-
         char talp[999999];int s;
-
         for(i = 0; ((moji[i] = fgetc(fp)) != EOF); i++) {
-
         if(isalpha(moji[i])){
                 if(moji[i] == 'a') moji[i] = 'A';
                 if(moji[i] == 'b') moji[i] = 'B';
@@ -41,18 +38,15 @@ int main(void) {
                 if(moji[i] == 'x') moji[i] = 'X';
                 if(moji[i] == 'y') moji[i] = 'Y';
                 if(moji[i] == 'z') moji[i] = 'Z';
-
                 M++;
                 talp[M] = moji[i];
                 }
                 else if(moji[i] == 32) {
                         M++; talp[M] = moji[i];
                 }
-
 }
         printf("\n\n");
 for(int j = 0; j < 100; j++) putchar(talp[rand()%M+0]);
         printf("\n\n\n");
-
 return 0;
 }
