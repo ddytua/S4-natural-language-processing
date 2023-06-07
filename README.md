@@ -33,4 +33,4 @@
 発生するプログラミングの作成。
 
 ---
-![ラテン文字を使用する各国の使用頻度][img/language.png]
+![Alt text](/image/language.png?raw=true "Optional Title")
