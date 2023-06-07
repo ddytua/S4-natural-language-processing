@@ -9,7 +9,11 @@
 &emsp;標準テキストエディタであるgedit上でC言語を使用し、英語の文字の使用頻度を調べる。<br><br>
 
 3. 使用するテキストデータ<br>
-&emsp;ピーターパン([https://www.gutenberg.org/files/16/16-h/16-h.htm](https://www.gutenberg.org/files/16/16-h/16-h.htm))<br><br>
+&emsp;英語:ピーターパン([https://www.gutenberg.org/files/16/16-h/16-h.htm](https://www.gutenberg.org/files/16/16-h/16-h.htm))<br><br><br><br>
+&emsp;イタリア語:運命に直面して([https://www.gutenberg.org/files/48361/48361-h/48361-h.htm](https://www.gutenberg.org/files/48361/48361-h/48361-h.htm))<br><br>
+&emsp;スペイン語:スペクトル([https://www.gutenberg.org/files/29799/29799-h/29799-h.htm](https://www.gutenberg.org/files/29799/29799-h/29799-h.htm))<br><br>
+&emsp;ドイツ語:ベルクリヒタース・エルデンヴァレン([https://www.gutenberg.org/files/14225/14225-h/14225-h.htm](https://www.gutenberg.org/files/14225/14225-h/14225-h.htm))<br><br> 
+&emsp;フランス語:善良な若者からいとこのマドレーヌへの最後の手紙([https://www.gutenberg.org/files/63267/63267-h/63267-h.htm](https://www.gutenberg.org/files/63267/63267-h/63267-h.htm))<br><br>
 
 ---
 
