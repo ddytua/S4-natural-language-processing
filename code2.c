@@ -7,17 +7,13 @@ int main(void) {
         char fname[] = "English.txt";
         int i = 0;
         float moji[999999];
-
         float alp[26];
         float pro[26];
-
         char salp[] = {'A', 'B','C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X' , 'Y', 'Z', ' '};
         int j, l, k, p,tmp, stmp;
         int M;
         fp = fopen(fname, "r");
-
         for(i = 0; ((moji[i] = fgetc(fp)) != EOF); i++) {
-
         if(isalpha(moji[i])){
                 if(moji[i] == 'A' || moji[i] == 'a') alp[0] +=1;
                 if(moji[i] == 'B' || moji[i] == 'b') alp[1] +=1;
@@ -45,40 +41,28 @@ int main(void) {
                 if(moji[i] == 'X' || moji[i] == 'x') alp[23] +=1;
                 if(moji[i] == 'Y' || moji[i] == 'y') alp[24] +=1;
                 if(moji[i] == 'Z' || moji[i] == 'z') alp[25] +=1;
-
                 M++;
                 }
                 else if(moji[i] == 32) {
                         alp[26]++; M++;
                 }
-
 }
-
-
-
-
 for(j = 0; j <= 26; j++){
         for(l = j + 1; l <= 26; l++){
-
                 if(alp[j] < alp[l]){
                 tmp = alp[j];
                 stmp = salp[j];
-
                 alp[j] = alp[l];
                 salp[j] = salp[l];
-
                 alp[l] = tmp;
                 salp[l] = stmp;
                 }
-
         }
 }
 for(p = 0; p <=26; p++)
         pro[p] = (alp[p] / i)*100;
-
 for(k = 0; k <= 26; k++){
         printf("%c = %.0f   %f%% \n", salp[k],alp[k], pro[k]);
-
 }
 printf("total words(contains speace) = %d\n", M);
 return 0;
